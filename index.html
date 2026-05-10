@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+    <link rel="stylesheet" href="./styles/indexStyles.css" type="text/css">
+    <script src="./scripts/translations.js" defer></script>
   </head>
   <body>
-    <h1>Eesge</h1>
-    <p>Content</p>
+    <header>
+      <nav>
+        <ul>
+          <li href="#general" data-i18n="nav_general"></li>
+          <li href="#projects" data-i18n="nav_projects"></li>
+          <li href="#qualifications" data-i18n="nav_qualifications"></li>
+        </ul>
+      </nav>
+      <div id="settings">
+        <input type="radio" id="de" class="langRadio" name="language" value="de">
+        <label for="de" data-i18n="german"></label>
+        <input type="radio" id="en" class="langRadio" name="language" value="en">
+        <label for="en" data-i18n="english"></label>
+      </div>
+    </header>
+    <main>
+      <section id="general">
+
+      </section>
+      <section id="projects">
+
+      </section>
+      <section id="qualifications">
+
+      </section>
+    </main>
+    <footer>
+      <div id="contact">
+        <ul>
+          <li>Email:</li>
+          <li>GitHub:</li>
+          <li>LinkedIn:</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./scripts/indexScript.js"></script>
   </body>
 </html>
