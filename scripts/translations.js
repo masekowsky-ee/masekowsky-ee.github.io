@@ -3,17 +3,35 @@ const translations = {
         nav_general: "Generell",
         nav_projects: "Projekte",
         nav_qualifications: "Qualifikationen",
+        nav_settings: "Einstellungen",
 
         german: "Deutsch",
         english: "Englisch",
+
+        tag_student: "Schüler",
+        tag_coding: "Programmieren",
+        tag_development: "Entwicklung",
+
+        me_intro: "Ich bin Eesge Masekowsky. Aktuell als Schüler an einem deutschen Gymnasium, strebe ich mein Abitur im Jahr 2028 an. Das Schuljahr 2025/26 habe ich als Juniorbotschafter mit dem PPP/CBYX Stipendium in den USA verbracht. Aktuell lerne ich das Programmieren von Web Applikationen und mehr.",
+    
+        my_projects_h2: "Meine Projekte",
     },
     en: {
         nav_general: "General",
         nav_projects: "Projects",
         nav_qualifications: "Qualifications",
+        nav_settings: "Settings",
 
         german: "German",
         english: "English",
+
+        tag_student: "Student",
+        tag_coding: "Coding",
+        tag_development: "Development",
+
+        me_intro: "I am Eesge Masekowsky. Currently a student at a German Gymnasium, I am working towards my Abitur in 2028. I spent the 2025/26 school year in the USA as a Junior Ambassador through the PPP/CBYX scholarship. I am currently learning to develop web applications and more.",
+    
+        my_projects_h2: "My Projects",
     }
 }
 

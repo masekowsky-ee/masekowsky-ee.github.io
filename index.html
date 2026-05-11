@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bruno+Ace+SC&family=Gelasio:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/indexStyles.css" type="text/css">
     <script src="./scripts/translations.js" defer></script>
   </head>
@@ -11,9 +14,10 @@
           <li href="#general" data-i18n="nav_general"></li>
           <li href="#projects" data-i18n="nav_projects"></li>
           <li href="#qualifications" data-i18n="nav_qualifications"></li>
+          <li id="nav_settings" data-i18n="nav_settings"></li>
         </ul>
       </nav>
-      <div id="settings">
+      <div id="settings" class="hidden">
         <input type="radio" id="de" class="langRadio" name="language" value="de">
         <label for="de" data-i18n="german"></label>
         <input type="radio" id="en" class="langRadio" name="language" value="en">
@@ -22,10 +26,19 @@
     </header>
     <main>
       <section id="general">
-
+        <div id="welcome">
+          <h1>Eesge Masekowsky</h1>
+          <div id="tags">
+            <p data-i18n="tag_student"></p>
+            <p data-i18n="tag_coding"></p>
+            <p data-i18n="tag_development"></p>
+          </div>
+        </div>
+        <article data-i18n="me_intro">
+        </article>
       </section>
       <section id="projects">
-
+        <h2 data-i18n="my_projects_h2"></h2>
       </section>
       <section id="qualifications">
 
