@@ -15,6 +15,16 @@ const translations = {
         me_intro: "Ich bin Eesge Masekowsky. Aktuell als Schüler an einem deutschen Gymnasium, strebe ich mein Abitur im Jahr 2028 an. Das Schuljahr 2025/26 habe ich als Juniorbotschafter mit dem PPP/CBYX Stipendium in den USA verbracht. Aktuell lerne ich das Programmieren von Web Applikationen und mehr.",
     
         my_projects_h2: "Meine Projekte",
+
+        quidey_intro: "Quidey ist eine Anwendung zur Organisation und Strukturierung von Lernen und Projekten. Es passt sich an den Benutzer an und erleichtert Entscheidungen um das Lernen leichter und direkter zu machen.",
+        features_h4: "Eigenschaften",
+        plan_and_adjust: "Erstelle Pläne, die sich an dich anpassen",
+        structured_studying: "Lerne strukturiert und gezielt",
+        customizable: "Passe die Anwendung auf dich an",
+        get_to_quidey: "Zu Quidey",
+        learn_more_quidey: "Mehr über Quidey",
+
+        qualifications_h2: "Qualifikationen",
     },
     en: {
         nav_general: "General",
@@ -32,6 +42,16 @@ const translations = {
         me_intro: "I am Eesge Masekowsky. Currently a student at a German Gymnasium, I am working towards my Abitur in 2028. I spent the 2025/26 school year in the USA as a Junior Ambassador through the PPP/CBYX scholarship. I am currently learning to develop web applications and more.",
     
         my_projects_h2: "My Projects",
+
+        quidey_intro: "Quidey is an application designed to organize and structure learning and projects. It adapts to the user and facilitates decision-making, making the learning process easier and more direct.",
+        features_h4: "Features",
+        plan_and_adjust: "Create plans that adjust to your needs and habits",
+        structured_studying: "Study structured and specific",
+        customizable: "Adjust the App to your liking",
+        get_to_quidey: "To Quidey",
+        learn_more_quidey: "Learn more about Quidey",
+    
+        qualifications_h2: "Qualifications",
     }
 }
 
@@ -128,5 +148,6 @@ langRadio.forEach(radioInput =>
         } else if (de.checked){
             setLang('de');
         }
+        settingsDiv.classList.add("hidden");
     })
 );
